@@ -1,6 +1,6 @@
-import Pasta from "./pasta.jpg";
-import Pizza from "./pizza.jpg";
-import Lasagna from "./lasagna.jpg";
+import Pasta from "./images/pasta.jpg";
+import Pizza from "./images/pizza.jpg";
+import Lasagna from "./images/lasagna.jpg";
 
 function createMenuItem(name, image) {
   const menuItem = document.createElement("div");

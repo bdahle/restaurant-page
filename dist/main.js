@@ -16,7 +16,47 @@
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _restaurant_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./restaurant.jpg */ \"./src/restaurant.jpg\");\n\n\nfunction homeComponent() {\n  // const content = document.getElementById(\"content\");\n\n  const tab = document.createElement(\"div\");\n  const introduction = document.createElement(\"p\");\n  const image = document.createElement(\"img\");\n\n  introduction.innerHTML =\n    \"Hos Ristorante Fantastico lager vi autentisk italiensk mat med en moderne vri.\";\n  image.src = _restaurant_jpg__WEBPACK_IMPORTED_MODULE_0__;\n\n  tab.appendChild(introduction);\n  tab.appendChild(image);\n  // content.appendChild(tab);\n\n  return tab;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (homeComponent);\n\n\n//# sourceURL=webpack://restaurant-page/./src/homeComponent.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _images_restaurant_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/restaurant.jpg */ \"./src/images/restaurant.jpg\");\n\n\nfunction homeComponent() {\n  // const content = document.getElementById(\"content\");\n\n  const tab = document.createElement(\"div\");\n  const introduction = document.createElement(\"p\");\n  const image = document.createElement(\"img\");\n\n  introduction.innerHTML =\n    \"Hos Ristorante Fantastico lager vi autentisk italiensk mat med en moderne vri.\";\n  image.src = _images_restaurant_jpg__WEBPACK_IMPORTED_MODULE_0__;\n\n  tab.appendChild(introduction);\n  tab.appendChild(image);\n  // content.appendChild(tab);\n\n  return tab;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (homeComponent);\n\n\n//# sourceURL=webpack://restaurant-page/./src/homeComponent.js?");
+
+/***/ }),
+
+/***/ "./src/images/lasagna.jpg":
+/*!********************************!*\
+  !*** ./src/images/lasagna.jpg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"cef985337a2f10c87c34.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/lasagna.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/pasta.jpg":
+/*!******************************!*\
+  !*** ./src/images/pasta.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"43a48feed9acac019273.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/pasta.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/pizza.jpg":
+/*!******************************!*\
+  !*** ./src/images/pizza.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"31ead191fa44a9c548ae.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/pizza.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/restaurant.jpg":
+/*!***********************************!*\
+  !*** ./src/images/restaurant.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"0996ac1fa46030ac1235.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/restaurant.jpg?");
 
 /***/ }),
 
@@ -30,53 +70,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hom
 
 /***/ }),
 
-/***/ "./src/lasagna.jpg":
-/*!*************************!*\
-  !*** ./src/lasagna.jpg ***!
-  \*************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"cef985337a2f10c87c34.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/lasagna.jpg?");
-
-/***/ }),
-
 /***/ "./src/menuComponent.js":
 /*!******************************!*\
   !*** ./src/menuComponent.js ***!
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _pasta_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pasta.jpg */ \"./src/pasta.jpg\");\n/* harmony import */ var _pizza_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pizza.jpg */ \"./src/pizza.jpg\");\n/* harmony import */ var _lasagna_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./lasagna.jpg */ \"./src/lasagna.jpg\");\n\n\n\n\nfunction createMenuItem(name, image) {\n  const menuItem = document.createElement(\"div\");\n  const nameElement = document.createElement(\"p\");\n  const imageElement = document.createElement(\"img\");\n\n  nameElement.innerHTML = name;\n  imageElement.src = image;\n\n  menuItem.appendChild(nameElement);\n  menuItem.appendChild(imageElement);\n  return menuItem;\n}\n\nfunction menuComponent() {\n  const menu = document.createElement(\"div\");\n\n  menu.appendChild(createMenuItem(\"Pasta Straordinaria\", _pasta_jpg__WEBPACK_IMPORTED_MODULE_0__));\n  menu.appendChild(createMenuItem(\"Pizza Eccezionale\", _pizza_jpg__WEBPACK_IMPORTED_MODULE_1__));\n  menu.appendChild(createMenuItem(\"Lasagna Fenomenale\", _lasagna_jpg__WEBPACK_IMPORTED_MODULE_2__));\n\n  return menu;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuComponent);\n\n\n//# sourceURL=webpack://restaurant-page/./src/menuComponent.js?");
-
-/***/ }),
-
-/***/ "./src/pasta.jpg":
-/*!***********************!*\
-  !*** ./src/pasta.jpg ***!
-  \***********************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"43a48feed9acac019273.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/pasta.jpg?");
-
-/***/ }),
-
-/***/ "./src/pizza.jpg":
-/*!***********************!*\
-  !*** ./src/pizza.jpg ***!
-  \***********************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"31ead191fa44a9c548ae.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/pizza.jpg?");
-
-/***/ }),
-
-/***/ "./src/restaurant.jpg":
-/*!****************************!*\
-  !*** ./src/restaurant.jpg ***!
-  \****************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"0996ac1fa46030ac1235.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/restaurant.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _images_pasta_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/pasta.jpg */ \"./src/images/pasta.jpg\");\n/* harmony import */ var _images_pizza_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/pizza.jpg */ \"./src/images/pizza.jpg\");\n/* harmony import */ var _images_lasagna_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/lasagna.jpg */ \"./src/images/lasagna.jpg\");\n\n\n\n\nfunction createMenuItem(name, image) {\n  const menuItem = document.createElement(\"div\");\n  const nameElement = document.createElement(\"p\");\n  const imageElement = document.createElement(\"img\");\n\n  nameElement.innerHTML = name;\n  imageElement.src = image;\n\n  menuItem.appendChild(nameElement);\n  menuItem.appendChild(imageElement);\n  return menuItem;\n}\n\nfunction menuComponent() {\n  const menu = document.createElement(\"div\");\n\n  menu.appendChild(createMenuItem(\"Pasta Straordinaria\", _images_pasta_jpg__WEBPACK_IMPORTED_MODULE_0__));\n  menu.appendChild(createMenuItem(\"Pizza Eccezionale\", _images_pizza_jpg__WEBPACK_IMPORTED_MODULE_1__));\n  menu.appendChild(createMenuItem(\"Lasagna Fenomenale\", _images_lasagna_jpg__WEBPACK_IMPORTED_MODULE_2__));\n\n  return menu;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuComponent);\n\n\n//# sourceURL=webpack://restaurant-page/./src/menuComponent.js?");
 
 /***/ })
 

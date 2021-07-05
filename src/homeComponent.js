@@ -1,4 +1,4 @@
-import Restaurant from "./restaurant.jpg";
+import Restaurant from "./images/restaurant.jpg";
 
 function homeComponent() {
   // const content = document.getElementById("content");
