@@ -1,3 +1,3 @@
-import contentComponent from "./contentComponent";
+import homeComponent from "./homeComponent";
 
-contentComponent();
+homeComponent();

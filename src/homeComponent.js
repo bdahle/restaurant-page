@@ -1,5 +1,9 @@
-function contentComponent() {
+import Restaurant from "./restaurant.jpg";
+
+function homeComponent() {
   const content = document.getElementById("content");
+
+  const tab = document.createElement("div");
 
   const headline = document.createElement("h1");
   headline.innerHTML = "Ristorante Fantastico";
@@ -9,11 +13,13 @@ function contentComponent() {
     "Hos Ristorante Fantastico lager vi autentisk italiensk mat med en moderne vri.";
 
   const image = document.createElement("img");
-  image.src = "restaurant.jpg";
+  image.src = Restaurant;
 
-  content.appendChild(headline);
-  content.appendChild(introduction);
-  content.appendChild(image);
+  tab.appendChild(headline);
+  tab.appendChild(introduction);
+  tab.appendChild(image);
+
+  content.appendChild(tab);
 }
 
-export default contentComponent;
+export default homeComponent;

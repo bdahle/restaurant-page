@@ -10,13 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/contentComponent.js":
-/*!*********************************!*\
-  !*** ./src/contentComponent.js ***!
-  \*********************************/
+/***/ "./src/homeComponent.js":
+/*!******************************!*\
+  !*** ./src/homeComponent.js ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction contentComponent() {\n  const content = document.getElementById(\"content\");\n\n  const headline = document.createElement(\"h1\");\n  headline.innerHTML = \"Ristorante Fantastico\";\n\n  const introduction = document.createElement(\"p\");\n  introduction.innerHTML =\n    \"Hos Ristorante Fantastico lager vi autentisk italiensk mat med en moderne vri.\";\n\n  const image = document.createElement(\"img\");\n  image.src = \"restaurant.jpg\";\n\n  content.appendChild(headline);\n  content.appendChild(introduction);\n  content.appendChild(image);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (contentComponent);\n\n\n//# sourceURL=webpack://restaurant-page/./src/contentComponent.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _restaurant_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./restaurant.jpg */ \"./src/restaurant.jpg\");\n\n\nfunction homeComponent() {\n  const content = document.getElementById(\"content\");\n\n  const tab = document.createElement(\"div\");\n\n  const headline = document.createElement(\"h1\");\n  headline.innerHTML = \"Ristorante Fantastico\";\n\n  const introduction = document.createElement(\"p\");\n  introduction.innerHTML =\n    \"Hos Ristorante Fantastico lager vi autentisk italiensk mat med en moderne vri.\";\n\n  const image = document.createElement(\"img\");\n  image.src = _restaurant_jpg__WEBPACK_IMPORTED_MODULE_0__;\n\n  tab.appendChild(headline);\n  tab.appendChild(introduction);\n  tab.appendChild(image);\n\n  content.appendChild(tab);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (homeComponent);\n\n\n//# sourceURL=webpack://restaurant-page/./src/homeComponent.js?");
 
 /***/ }),
 
@@ -26,7 +26,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _contentComponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./contentComponent */ \"./src/contentComponent.js\");\n\n\n(0,_contentComponent__WEBPACK_IMPORTED_MODULE_0__.default)();\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _homeComponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./homeComponent */ \"./src/homeComponent.js\");\n\n\n(0,_homeComponent__WEBPACK_IMPORTED_MODULE_0__.default)();\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/restaurant.jpg":
+/*!****************************!*\
+  !*** ./src/restaurant.jpg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"0996ac1fa46030ac1235.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/restaurant.jpg?");
 
 /***/ })
 
@@ -69,6 +79,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _con
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -83,6 +105,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _con
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
