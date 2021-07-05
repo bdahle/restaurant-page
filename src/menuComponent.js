@@ -1,17 +1,24 @@
 import Pasta from "./pasta.jpg";
 
+function createMenuItem(name, image) {
+  const menuItem = document.createElement("div");
+  const nameElement = document.createElement("p");
+  const imageElement = document.createElement("img");
+
+  nameElement.innerHTML = name;
+  imageElement.src = image;
+
+  menuItem.appendChild(nameElement);
+  menuItem.appendChild(imageElement);
+  return menuItem;
+}
+
 function menuComponent() {
-  const tab = document.createElement("div");
-  const introduction = document.createElement("p");
-  const image = document.createElement("img");
+  const menu = document.createElement("div");
 
-  introduction.innerHTML = "Pasta Straordinaria";
-  image.src = Pasta;
+  menu.appendChild(createMenuItem("Pasta Straordinaria", Pasta));
 
-  tab.appendChild(introduction);
-  tab.appendChild(image);
-
-  return tab;
+  return menu;
 }
 
 export default menuComponent;
