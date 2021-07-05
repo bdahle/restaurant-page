@@ -30,13 +30,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hom
 
 /***/ }),
 
+/***/ "./src/lasagna.jpg":
+/*!*************************!*\
+  !*** ./src/lasagna.jpg ***!
+  \*************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"cef985337a2f10c87c34.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/lasagna.jpg?");
+
+/***/ }),
+
 /***/ "./src/menuComponent.js":
 /*!******************************!*\
   !*** ./src/menuComponent.js ***!
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _pasta_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pasta.jpg */ \"./src/pasta.jpg\");\n\n\nfunction createMenuItem(name, image) {\n  const menuItem = document.createElement(\"div\");\n  const nameElement = document.createElement(\"p\");\n  const imageElement = document.createElement(\"img\");\n\n  nameElement.innerHTML = name;\n  imageElement.src = image;\n\n  menuItem.appendChild(nameElement);\n  menuItem.appendChild(imageElement);\n  return menuItem;\n}\n\nfunction menuComponent() {\n  const menu = document.createElement(\"div\");\n\n  menu.appendChild(createMenuItem(\"Pasta Straordinaria\", _pasta_jpg__WEBPACK_IMPORTED_MODULE_0__));\n\n  return menu;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuComponent);\n\n\n//# sourceURL=webpack://restaurant-page/./src/menuComponent.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _pasta_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pasta.jpg */ \"./src/pasta.jpg\");\n/* harmony import */ var _pizza_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pizza.jpg */ \"./src/pizza.jpg\");\n/* harmony import */ var _lasagna_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./lasagna.jpg */ \"./src/lasagna.jpg\");\n\n\n\n\nfunction createMenuItem(name, image) {\n  const menuItem = document.createElement(\"div\");\n  const nameElement = document.createElement(\"p\");\n  const imageElement = document.createElement(\"img\");\n\n  nameElement.innerHTML = name;\n  imageElement.src = image;\n\n  menuItem.appendChild(nameElement);\n  menuItem.appendChild(imageElement);\n  return menuItem;\n}\n\nfunction menuComponent() {\n  const menu = document.createElement(\"div\");\n\n  menu.appendChild(createMenuItem(\"Pasta Straordinaria\", _pasta_jpg__WEBPACK_IMPORTED_MODULE_0__));\n  menu.appendChild(createMenuItem(\"Pizza Eccezionale\", _pizza_jpg__WEBPACK_IMPORTED_MODULE_1__));\n  menu.appendChild(createMenuItem(\"Lasagna Fenomenale\", _lasagna_jpg__WEBPACK_IMPORTED_MODULE_2__));\n\n  return menu;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuComponent);\n\n\n//# sourceURL=webpack://restaurant-page/./src/menuComponent.js?");
 
 /***/ }),
 
@@ -47,6 +57,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"43a48feed9acac019273.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/pasta.jpg?");
+
+/***/ }),
+
+/***/ "./src/pizza.jpg":
+/*!***********************!*\
+  !*** ./src/pizza.jpg ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"31ead191fa44a9c548ae.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/pizza.jpg?");
 
 /***/ }),
 
