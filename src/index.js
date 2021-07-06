@@ -1,3 +1,4 @@
+import contactComponent from "./contactComponent";
 import homeComponent from "./homeComponent";
 import menuComponent from "./menuComponent";
 
@@ -20,10 +21,17 @@ menuButton.addEventListener("click", function () {
   currentTab.innerHTML = "";
   currentTab.appendChild(menuComponent());
 });
+const contactButton = document.createElement("button");
+contactButton.addEventListener("click", function () {
+  currentTab.innerHTML = "";
+  currentTab.appendChild(contactComponent());
+});
 homeButton.innerHTML = "Hjem";
 menuButton.innerHTML = "Meny";
+contactButton.innerHTML = "Kontakt oss";
 tabSwitcher.appendChild(homeButton);
 tabSwitcher.appendChild(menuButton);
+tabSwitcher.appendChild(contactButton);
 
 header.appendChild(tabSwitcher);
 
