@@ -4,7 +4,7 @@ import Lasagna from "./images/lasagna.jpg";
 
 function createMenuItem(name, image) {
   const menuItem = document.createElement("div");
-  const nameElement = document.createElement("p");
+  const nameElement = document.createElement("h2");
   const imageElement = document.createElement("img");
 
   nameElement.innerHTML = name;

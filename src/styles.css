@@ -1,6 +1,7 @@
 #tabSwitcher {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  column-gap: 8px;
 }
 
 img {
@@ -13,4 +14,9 @@ button {
 
 h1 {
   text-align: center;
+}
+
+#content {
+  width: 50%;
+  margin: auto;
 }
