@@ -1,0 +1,16 @@
+#tabSwitcher {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  font-size: 1em;
+}
+
+h1 {
+  text-align: center;
+}

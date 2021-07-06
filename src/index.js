@@ -1,6 +1,7 @@
 import contactComponent from "./contactComponent";
 import homeComponent from "./homeComponent";
 import menuComponent from "./menuComponent";
+import "./styles.css";
 
 const header = document.createElement("div");
 header.id = "header";
@@ -11,6 +12,8 @@ headline.innerHTML = "Ristorante Fantastico";
 header.appendChild(headline);
 
 const tabSwitcher = document.createElement("div");
+tabSwitcher.id = "tabSwitcher";
+
 const homeButton = document.createElement("button");
 homeButton.addEventListener("click", function () {
   currentTab.innerHTML = "";
