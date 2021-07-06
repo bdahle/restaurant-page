@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"cef985337a2f10c87c34.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/lasagna.jpg?");
+eval("module.exports = __webpack_require__.p + \"97f4149dcf096cab4cb7.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/lasagna.jpg?");
 
 /***/ }),
 
@@ -116,7 +116,7 @@ eval("module.exports = __webpack_require__.p + \"cef985337a2f10c87c34.jpg\";\n\n
   \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"3b907e20f08555dd84e2.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/outside.jpg?");
+eval("module.exports = __webpack_require__.p + \"65a99a4d405c4d050ef3.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/outside.jpg?");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("module.exports = __webpack_require__.p + \"3b907e20f08555dd84e2.jpg\";\n\n
   \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"43a48feed9acac019273.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/pasta.jpg?");
+eval("module.exports = __webpack_require__.p + \"4fae1ae87b1b1a6ae426.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/pasta.jpg?");
 
 /***/ }),
 
@@ -136,7 +136,7 @@ eval("module.exports = __webpack_require__.p + \"43a48feed9acac019273.jpg\";\n\n
   \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"31ead191fa44a9c548ae.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/pizza.jpg?");
+eval("module.exports = __webpack_require__.p + \"3e920f923c5c48f53538.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/pizza.jpg?");
 
 /***/ }),
 
@@ -146,7 +146,7 @@ eval("module.exports = __webpack_require__.p + \"31ead191fa44a9c548ae.jpg\";\n\n
   \***********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"0996ac1fa46030ac1235.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/restaurant.jpg?");
+eval("module.exports = __webpack_require__.p + \"b1e2bd3134717d5f5f98.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/restaurant.jpg?");
 
 /***/ }),
 
