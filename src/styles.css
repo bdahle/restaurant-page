@@ -16,7 +16,9 @@ h1 {
   text-align: center;
 }
 
-#content {
-  width: 50%;
-  margin: auto;
+@media screen and (min-width: 800px) {
+  #content {
+    width: 50%;
+    margin: auto;
+  }
 }
